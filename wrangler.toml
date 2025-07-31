@@ -1,0 +1,5 @@
+name = "cloudpe-site"
+compatibility_date = "2025-07-31"
+
+[site]
+bucket = "."
