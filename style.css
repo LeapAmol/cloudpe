@@ -4,9 +4,8 @@
   padding: 0;
 }
 
-body {
+body, html {
   font-family: "Raleway", sans-serif !important;
-  overflow-x: hidden;
 }
 
 .raleway-font {
@@ -19,7 +18,9 @@ body {
 .section-padding {
   padding: 60px 0;
 }
-
+.mt-20{
+  margin-top: 40px;
+}
 .banner-h1-wrapper h1 {
   font-size: 46px;
   font-weight: 700;
@@ -565,7 +566,7 @@ section.price-comparison.section-padding {
 
 .cloudpe-vm-right img {
   width: 100%;
-  max-width: 400px;
+  /* max-width: 520px; */
   height: auto;
   /* border-radius: 10px; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -803,7 +804,7 @@ section.price-comparison.section-padding {
   /* तुमच्या स्क्रिनशॉटप्रमाणे dark background */
   color: #aaa;
   display: flex;
-  justify-content: space-between;
+  justify-content: center ;
   align-items: center;
   padding: 20px 40px;
   flex-wrap: wrap;
@@ -969,14 +970,14 @@ section.price-comparison.section-padding {
   color: #444;
 }
 
-.cloudpe-vm-right.img img {
-  max-width: 465px;
+.cloudpe-vm-left {
+    padding-left: 30px;
 }
-
 .first-os-library {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .os-img {
@@ -1190,4 +1191,7 @@ td.text-center.number input {
 
 input.storage-quantity {
   width: 30%;
+}
+input.input-storage-ha {
+    width: 35%;
 }
