@@ -381,7 +381,8 @@ body, html {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 15px;
   background-color: #e5dfff;
-  height: 580px;
+  min-height: 580px; /* suruvatila itki height rahil */
+  height: auto;      /* content barobar height vadhel */
 }
 
 /* our locations */
@@ -1195,3 +1196,4 @@ input.storage-quantity {
 input.input-storage-ha {
     width: 35%;
 }
+
